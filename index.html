@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to MyOnlineMeal | MyOnlineMeal.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width : 863px)" href="phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <div id="logo">
+            <img src="FoodLogo.png" alt="Logo">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#cont act">Contact Us</a></li>
+        </ul>
+    </nav>
+
+
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to MyOnlineMeal</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos omnis consequatur laborum impedit iste
+            consequuntur natus</p>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <button class="btn">Order now</button>
+    </section>
+
+
+
+    <section id="services-container">
+        <h1 class="h-primary center">Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="pizzaaaa.png" alt="Pizza Image   ">
+                <h2 class="h-secondary center center">Food Catering</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat consectetur, repellendus pariatur
+                    neque quisquam in eum. Optio atque reiciendis, ipsa error enim laborum?</p>
+            </div>
+
+            <div class="box">
+                <img src="foodorder.jpg" alt="Pizza Image   ">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat consectetur, repellendus pariatur
+                    neque quisquam in eum. Optio atque reiciendis, ipsa error enim laborum?</p>
+            </div>
+
+            <div class="box">
+                <img src="delivery_scooter.jpg" alt="Pizza Image   ">
+                <h2 class="h-secondary center">Food Delivery</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat consectetur, repellendus pariatur
+                    neque quisquam in eum. Optio atque reiciendis, ipsa error enim laborum?</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="client-section">
+        <h2 class="h-secondary center">Our Clients</h2>
+        <div class="clients">
+            <div class="client-item">
+                <img src="appleLogo.png" alt="appleLogo">
+            </div>
+            <div class="client-item">
+                <img src="microsoftLogo.png" alt="appleLogo">
+            </div>
+            <div class="client-item">
+                <img src="skypeLogo.png" alt="appleLogo">
+            </div>
+            <div class="client-item">
+                <img src="hpLogo.png" alt="appleLogo">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name"> Name : </label>
+                    <input type="text" placeholder="Enter your Name" id="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="E-mail"> E-mail : </label>
+                    <input type="email" placeholder="Enter your E-mail" id="E-mail">
+                </div>
+
+                <div class="form-group">
+                    <label for="m-number"> Mobile Number :</label>
+                    <input type="number" placeholder="Enter your Mobile no" id="m-number">
+                </div>
+
+                <div class="form-group">
+                    <label for="text-area"> Enter you feelings </label>
+                    <textarea name="t-area" id="text-area" cols="30" rows="5"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.MyOnlineMeal.com All right reserved!
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+
+<!-- ss
+1. by only setting height for the image we can change its dimensions.
+2. if for eg id::before() is set absolute and id is set relative then id box boundary will act as
+    limit for the background...(This is what we want).
+3. if of parent is not specified explicitly the it will change according to inner
+    elements in accordance with responsive websites.
+4. In href="#id" if we give the id of a section a href then on clicking that hyperlink we will
+    reach to that section.
+
+
+
+****  CSS   ****
+1. when 4th point is accessed (link is clicked) then how to scrool fastly or motionly can be done
+    by setting scroll-behaviour: smooth in css.
+2. For font size use rem .
+3. For image only height is enough for changing its size.(no need of width, it distort the image).
+4. 100% height makes the element boundary to adjust according to its inner elements.
+ -->
